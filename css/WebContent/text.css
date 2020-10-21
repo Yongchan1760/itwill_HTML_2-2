@@ -88,4 +88,58 @@ table,th,td{
 .t-tr01{
 	text-transform: none;
 }
+.t-tr02{
+	text-transform: lowercase;
+}
+.t-tr03{
+	text-transform: uppercase;
+}
+.t-tr04{
+	text-transform: capitalize;
+}
+/* text-shadow */
+#sec06>p {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: capitalize;
+	border: 1px solid green ;
+	text-align: center;
+	padding: 0.5em;
+}
+.t-sh01{
+	text-shadow: 5px 5px 7px #333;
+}
+.t-sh02{
+	text-shadow: 5px 0 0 #333;
+}
+.t-sh03{
+	text-shadow: 0 5px 0 #333;
+}
+.t-sh04{
+	text-shadow: 0 0 7px #333;
+}
+.t-sh05{
+	text-shadow: 0 0 0 #333;
+}
+.t-sh06{
+	text-shadow: -5px 0 0 #373;
+}
+.t-sh07{
+	text-shadow: 0 -5px 0 #373;
+}
+.t-sh08:hover{
+	text-shadow:-6px 10px 1px #373; 
+	transition: 2s;
+	background: red;
+}
+.lig:hover{
+	text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	color: white;
+	background-color: black;
+}
+.t-sh10:hover{
+	text-shadow: 0 0 7px #cef;
+	transition:2s;
+	background-color: blue;
+}
 
