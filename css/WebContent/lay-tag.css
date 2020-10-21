@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+h2{
+	color :#740;
+}
+p{
+	white-space: pre;
+	background-color: #720;
+	color: #fff;
+}

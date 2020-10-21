@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>css-basic</title>
+	<style type="text/css">
+		h1 {
+		color :#03af;
+		background-color: #ccc;
+		}
+		
+		h2{
+			white-space: pre;
+			color :#03af;
+			background-color: #ccc;
+		}
+		
+		p{
+			white-space: pre;
+			background-color: #ccc;
+			color: #02a;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1> css-basic</h1>
+	<h3>css? </h3>
+	<p style="background-color:  #ccc; color: #02a;">
+		cascadig style sheets 의 줄임말 <br>
+		웹페이지를 디자인해주는 스타일 프로그래밍 언어.<br>
+		통일성 있는 디자인을 구성할수있고 유지보수가 용이하다.<br>
+	 </p>
+	 
+	
+	 <h2> css 문법</h2>
+	 선택자 {
+	 속성 :속성값; --css로 꾸밀 대상 (주인공)
+	  속성 :속성값; -- 꾸밀 내용과 그값 (: 은 =의 뜻, ;은 .의뜻)
+	  ....
+	 }
+	 <h2> css 적용법 3가지 </h2>
+	 	<p> 
+	 		1.external css - 외부 css방식 
+	 			css내용을 *.css형식의 파일로 따로 독립시켜 만들어 놓고 html문서와 연결하여 적용.
+	 			(head태그 영역 안에 link태그를 활용)
+	 			통일성 있는 디자인이 가능하고 유지보수도 용이
+	 				
+	 		2.internal css -내부 css style
+	 			(head 태그 안에 style 태그를 활용)
+	 		
+	 		
+	 		3.inline css -태그 내장 방식 
+	 			css 내용을 html문서의 해당 태그 바로 뒤에 적용 
+	 			body태그 안의 특정태그뒤에 style속성으로 활용
+	 			-세가지 방식 중 css적용 우선순위가 가장 높음 
+	 			-통일성 있는 디자인 어렵고 유지보수 곤란 ,소스가 길어짐
+	 			
+		 </p>
+		 
+	 <h2> html5에서 추가된 layout용 tag들</h2>
+	 <p style="white-space: pre; background-color: #ccc; color: #02a;"> 
+	  &lt;header&gt;  &lt;/header&gt; --머리말영역 로고 (로그인 ,검색창위치)
+	  &lt;nav&gt; &lt;/nav&gt; -- 메뉴 영역
+	  &lt;article&gt; &lt;/article&gt; --컨텐츠 영역 (기사나 블로그처럼 독립적, 완성형 내용)
+	  &lt;section&gt;  &lt;/section&gt; --컨텐츠 영역 (주제별 구분)
+	  &lt;aside&gt;  &lt;/aside&gt; --컨텐츠 영역(페이지 전체의 주제 이외의 퀵링크 광고등)
+	  &lt;footer&gt; &lt;/footer&gt; --푸터 영역(카피라이트, 주소나 연락처 ,개인정보처리 방침등이 위치)
+	 </p>
+	 
+	 <h2> css 선택자의 종류</h2>
+	 <ol>
+	 	<li>tag 선택자 -tag</li>
+	 	<li>id 선택자 </li>
+	 	<li>class 선택자 </li>
+	 	<li>기타 등등.. 선택자 </li>
+	 </ol>
+	 
+	 
+	
+</body>
+</html>

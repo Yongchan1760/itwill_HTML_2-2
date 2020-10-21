@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 글꼴 없으면 기본타입으로 이거아무거나 하라는뜻sans-serif  */
+h1{
+	font-size:36px;
+	font-weight: 500;
+}
+/*  text-align */
+.t-al01{
+	text-align: left;
+}
+.t-al02{
+	text-align: center;
+}
+.t-al03{
+	text-align: right;
+}
+.t-al04{
+	text-align: justify;
+}
+.t-alo2>img{
+	width: 100px;
+}
+table,th,td{
+		/* A,B,C,...는 그룹선택자  */
+	border: 1px solid;
+}
+#sec01>table{
+	margin-top: 50px;
+	width: 500px;
+	height: 100px;
+}
+.td02:hover {
+	text-align: center;
+	color: red;
+}
+#sec01>p {
+	border: 1px solid;
+	width: 30%;
+}
+.t-de01{
+	text-decoration: overline;
+	color: red;
+}
+.t-de02{
+	text-decoration: line-through;
+	color :blue;
+}
+.t-de03{
+	text-decoration: underline;
+
+}
+.t-de04{
+	background-color: #d30;
+	padding: 0.5em;
+	text-align: center;
+}
+.t-de04>a{
+	text-decoration: none;
+	color: olive;
+}
+.t-de04>a:hover{
+	text-decoration: underline;
+	background: orange;
+}
+/*text-indent*/
+
+.t-in01{
+	text-indent: 16px;
+}
+.t-in02{
+	text-indent: 1.5em;
+}
+.t-in03{
+	text-indent: 10%;
+}
+.t-in04{
+	text-indent: -50px;
+}
+.t-in05{
+	text-indent: 20%;
+	border: 1px solid olive;
+}
+.t-in06:hover{
+	text-indent: 1.5em;
+	transition:2s;
+	border: 1px solid blue;
+}
+.t-tr01{
+	text-transform: none;
+}
+
