@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* margin 값 한개짜리 양 사방 적용 
+ ,는 그룹선택자 실전에서 여러번 스타일을
+ 적용하면 소스를 낭비하니깐 하나의 스타일을
+ 만들고 여러개를 ,그룹선택자를 이용하여 
+ css를 지정해준다.
+*/
+#sec01>div,#sec02>div{
+	border: 1px dotted;
+}
+.d01{
+	color: #f00;
+	margin: 30px;
+	/* 양사방 동일 */
+}
+.d02{
+	color: #800000;
+	/* rgb */
+	margin: 10%;
+}
+.d03{
+	color:#8000ff;
+	margin : 15%;
+}
+.d21{
+	color:#800040 ;
+	margin: 20px 5%;
+}
+.d22{
+	color: #0000ff;
+	margin: 2em 7%;
+	/*1em 글자 한개 크기
+	16px   */
+}
+.d23{
+	color: #ff8040;
+	width: 350px;
+	text-align: center;
+	margin: 50px auto;
+}

@@ -142,4 +142,13 @@ table,th,td{
 	transition:2s;
 	background-color: blue;
 }
+.pre{
+	white-space: pre;
+	/* 공백처리 =pre태그 처럼 그대로
+		
+	 */
+}
+.pre>b{
+	font-size: 0.8em;
+}
 

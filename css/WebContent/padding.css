@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* 패딩은 내부여백 여백을 많이줄수록 크기가 빵빵해진다. */
+
+#pn>li{
+	border: 1px solid #999; 
+	width: 150px;	
+}
+
+.pn-01{
+	padding: 50px;
+}
+.pn-02{
+	padding: 0 50px;
+}
+.pn-03{
+	padding: 0 50px 10px;
+}
+.pn-04{
+	padding: 0 50px 70px 150px;
+}
+#ph-box>img{
+	border:1px solid #333;
+	box-shadow: 3px 5px 10px #333;
+	margin: 10px;
+}
+.ph01{
+	padding:15px;
+}
+.ph02{
+	padding: 20px 10px;
+}
+.ph03{
+	padding: 10px 12px 80px;
+}
+.ph04{
+	padding: 10px 8px 100px 7px;
+}
+.tit03{
+	font-family: 'Pacifico', cursive;
+	text-transform:  capitalize;
+	/* 첫글자를 대문자로 해준다 
+	img tilte 글자에 마우스 커서를 올리면 
+	설명이 나온다.
+	*/
+	color: #e40;
+	font-size: 30px;
+}
+
+/*패딩의 방향별 적용 속성
+
+  */
+#pdr>li{
+	border: 1px solid #060;
+	width: 150px;
+}
+.p-t{
+	padding-top:2em; 
+	/*1em 16px  */
+}
+.p-r{
+	padding-right:2em; 
+	/*1em 16px  */
+	text-align: right;
+}
+.p-b{
+	padding-bottom:2em; 
+	/*1em 16px  */
+}
+.p-l{
+	padding-left:2em; 
+	/*1em 16px  */
+}
+.in-pd01{
+	padding :0.5em;
+	
+}
+.in-pd02{
+	padding: 0.5em 1em;
+}
+.in-pd03{
+	padding-top: 0.5em;
+	padding-left: 3em;
+}
+.in-pd04{
+	padding-top: 0.3em;
+	padding-bottom: 0.1em;
+}
+.la-pd01{
+	padding 0.5em;
+	font-weight:  bold;
+	color: aqua;
+	background-color: gray;
+}
+
+nav >a{
+	border: 1px solid;
+	padding: 0.5em 3em;
+}
+.h3-02{
+	color: gray;
+	font-size: 30px;
+}
+nav>a:hover {
+	background-color: #0cc;
+}

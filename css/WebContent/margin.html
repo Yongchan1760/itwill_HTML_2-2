@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="margin.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+
+
+	<h1>margin - 요소의 외부여백 </h1>
+	
+	
+	<h2>margin값의 개수별 적용</h2>
+	<ul> 
+		<li>
+			margin: n n n n; 양사방동일
+		</li>
+		<li>
+			margin: n n n n;상하, 좌우가 서로동일
+		</li>
+		<li>
+			margin: n n n n;상, 좌우 , 하 순서로 적용
+		</li>
+		<li>
+			margin: n n n n; 상 ,우 ,하,좌 순서로 적용
+		</li>
+	</ul>
+	<section id="sec01">
+		<h2> margin : n ; 양사방 동일</h2>
+		
+		<div class="d01">div01/margin 30px</div>
+			<div class="d02">div01/ margin 10%</div>
+				<div class="d03">div03/ margin 15%</div>
+	</section>
+	
+	<section id="sec02">
+		<h2> margin : n n; 상하 ,좌우가 서로 동일</h2>
+		
+		<div class="d21">div01/ margin 20px 5%</div>
+			<div class="d22">div01/ margin 2em 7%</div>
+				<div class="d23">div03/ width 300px 
+				요소 자체를 정중앙에 위치하려면 좌우값을 동일하게 주면됨
+				따라서 margin 좌우를  <b>auto<b>로 주면 양쪽이 균등 분활되면서 
+				수평 중앙에 위치하게된다.
+				</div>
+	</section>
+</body>
+</html>
