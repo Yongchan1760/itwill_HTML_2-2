@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+header{
+	border: 1px solid red;
+}
+footer{
+	border: 1px solid red;
+	clear: both;
+}
+aside{
+	border: 1px solid orange;
+	height: 600px;
+}
+article{
+	border: 1px solid blue;
+	height: 600px;
+	width: 70%;
+}
+#as-l{
+	width:15%;
+	background-color: skyblue;
+}
+#as-r{
+	width: 10%;
+	background-color: gold;
+}
+#as-l,article{
+	float: left;
+}
+#as-r{
+	float: right;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#in-box > *{
+	border: 1px solid #00f;
+	width:  500px;
+	height: 50px;
+	margin: 50px;
+}
+#bl-box *{
+	border: 1px solid #f0f;
+	width:  500px;
+	height: 50px;
+	margin: 50px;
+}
+ol>li:nth-of-type(1) {
+	color: #00f;
+}
+ol>li:nth-of-type(2) {
+	color:#f00; 
+}
